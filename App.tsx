@@ -4,7 +4,6 @@ import './i18n.config';
 import {useTranslation} from 'react-i18next';
 import LanguagePicker from './src/screen/LanguagePicker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {STORE_LANGUAGE_KEY} from './src/utils/languageDetectorPlugin';
 
 export default function App() {
   const {t} = useTranslation();
