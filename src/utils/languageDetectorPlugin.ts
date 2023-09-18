@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as RNLocalize from 'react-native-localize';
 import {LANG_CODES} from '../../i18n.config';
 
-const STORE_LANGUAGE_KEY = 'settings.lang';
+export const STORE_LANGUAGE_KEY = 'settings.lang';
 
 const languageDetectorPlugin = {
   type: 'languageDetector',
