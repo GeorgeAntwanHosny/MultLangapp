@@ -18,6 +18,7 @@ export default function App() {
     <View style={styles.container}>
       <LanguagePicker />
       <Text style={styles.text}>{`${t('hello')}!`}</Text>
+      <Text style={styles.text}>{`${t('users:email')}!`}</Text>
       <Button title={t('PRESS')} onPress={() => Alert.alert(t('hello'))} />
     </View>
   );

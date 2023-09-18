@@ -6,9 +6,11 @@ const {languageDetectorPlugin} = require('./src/utils/languageDetectorPlugin');
 const LANGUAGES = {
   en: {
     translation: en,
+    users: require('./src/translations/en/users.json'),
   },
   ar: {
     translation: ar,
+    users: require('./src/translations/ar/users.json'),
   },
 };
 
